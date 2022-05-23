@@ -1,0 +1,2 @@
+- the server will start at port 3000
+- for the device to work properly, images must be less than 5k. at most 4999 bytes
