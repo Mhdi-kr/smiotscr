@@ -46,7 +46,6 @@ function bin2hex(s) {
 
     return a.join('');
 }
-WORKDIR /usr/src/app
 
 app.get('/jpg2hex', (req, res) => {
     fs.readFile('pic.jpg', (err, buffer) => {
